@@ -1,0 +1,36 @@
+@mixin page-section-content($color) {
+    margin: -3px 0;
+    padding: 1em;
+    height: 25%;
+    background-color: $color;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    letter-spacing: 0.06em;
+    h2 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+}
+
+@mixin button  {
+    background-color: $orange-color;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    color: $white-color;
+    border-radius: 10em;
+    box-shadow: 0 0.1em 0.1em $black-color;
+    &:hover {
+        color: $black-color;
+    }
+    &:active {
+        box-shadow: none;
+    }
+}
+
+@mixin social-media($color){
+    font-size: 10em;
+    color: $color;
+}

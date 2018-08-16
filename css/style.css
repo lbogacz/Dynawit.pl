@@ -1,0 +1,214 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
+
+.main-nav-list {
+  background-color: #363636;
+  position: absolute;
+  top: 0;
+  left: 0em;
+  width: 100%;
+  visibility: hidden !important; }
+  .main-nav-list ul {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  .main-nav-list a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.8em 1em; }
+    .main-nav-list a:hover {
+      background-color: #dddddd;
+      color: black; }
+
+.hamburger {
+  width: 2em;
+  height: 1em;
+  background-color: black;
+  margin: 1em 0;
+  font-size: 2em;
+  position: absolute;
+  top: 0.4em;
+  right: 0.7em;
+  z-index: 2; }
+  .hamburger::before {
+    content: "";
+    margin: 1em 0; }
+  .hamburger::after {
+    content: "";
+    margin: 1em 0; }
+  .hamburger:hover {
+    color: white; }
+    .hamburger:hover ~ .main-nav-list {
+      transform: rotate(120deg); }
+
+.open {
+  visibility: visible;
+  background-color: #363636; }
+
+.main-header figure {
+  margin: 0;
+  padding: 0; }
+.main-header img {
+  max-width: 100%;
+  height: auto; }
+
+.page-section-content {
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.skatebording-evolve {
+  margin: -3px 0;
+  padding: 1em;
+  height: 25%;
+  background-color: #363636;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  letter-spacing: 0.06em; }
+  .skatebording-evolve h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.06em; }
+
+.page-section-content-img-left figure {
+  margin: 0; }
+  .page-section-content-img-left figure img {
+    max-width: 100%; }
+
+.live-in-the-moment {
+  margin: -3px 0;
+  padding: 1em;
+  height: 25%;
+  background-color: #fe6036;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  letter-spacing: 0.06em; }
+  .live-in-the-moment h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.06em; }
+
+.page-section-content-img-right figure {
+  margin: 0; }
+  .page-section-content-img-right figure img {
+    max-width: 100%; }
+
+.why-dynawit {
+  margin: -3px 0;
+  padding: 1em;
+  height: 25%;
+  background-color: #f4f4f4;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  letter-spacing: 0.06em;
+  color: black; }
+  .why-dynawit h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.06em; }
+
+.boards figure {
+  text-align: center; }
+  .boards figure figcaption {
+    color: black; }
+    .boards figure figcaption a {
+      background-color: #fe6036;
+      padding: 0.8em 2em;
+      text-decoration: none;
+      color: white;
+      border-radius: 10em;
+      box-shadow: 0 0.1em 0.1em black; }
+      .boards figure figcaption a:hover {
+        color: black; }
+      .boards figure figcaption a:active {
+        box-shadow: none; }
+  .boards figure img {
+    max-width: 100%;
+    max-height: 25em;
+    margin: 1em; }
+
+.page-section-content-button {
+  text-align: center;
+  margin-top: 8em; }
+  .page-section-content-button .button {
+    background-color: #fe6036;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    color: white;
+    border-radius: 10em;
+    box-shadow: 0 0.1em 0.1em black; }
+    .page-section-content-button .button:hover {
+      color: black; }
+    .page-section-content-button .button:active {
+      box-shadow: none; }
+
+.bottom-info {
+  margin: -3px 0;
+  padding: 1em;
+  height: 25%;
+  background-color: #fe6036;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  letter-spacing: 0.06em;
+  margin-top: 4em;
+  text-align: center; }
+  .bottom-info h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.06em; }
+
+.page-section-footer {
+  background-color: black;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -2em; }
+  .page-section-footer p {
+    color: white;
+    font-size: 1.2em; }
+    .page-section-footer p:nth-child(even)::after {
+      content: "\00a9"; }
+    .page-section-footer p:nth-child(odd) {
+      padding-bottom: 2em; }
+  .page-section-footer a {
+    text-decoration: none;
+    color: white; }
+
+.fa-facebook {
+  font-size: 10em;
+  color: #fe6036;
+  margin: 0.3em; }
+
+.fa-youtube {
+  font-size: 10em;
+  color: #ff0009;
+  margin-bottom: 0.3em; }
+
+.allegro {
+  font-family: "Roboto", sans-serif; }
+  .allegro a {
+    text-decoration: none;
+    font-size: 6em;
+    color: #fe6036;
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
