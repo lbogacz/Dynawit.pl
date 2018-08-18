@@ -30,38 +30,52 @@ body {
       background-color: #dddddd;
       color: black; }
 
+.menu-hamburger {
+  width: 100%;
+  height: 4em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #363636;
+  z-index: 1; }
+
 .hamburger {
-  width: 3em;
-  height: 2.5em;
+  width: 2.7em;
+  height: 2em;
   border: 0;
   border-top: 0.4em solid black;
   background: transparent;
-  position: absolute;
+  position: inherit;
   top: 1em;
-  right: 0.7em;
-  z-index: 1; }
+  right: 1em; }
   .hamburger::before, .hamburger::after {
     content: "";
-    width: 100%;
-    position: inherit;
+    width: 2.7em;
+    position: absolute;
     top: 0;
     right: 0;
     border-top: 0.4em solid black;
     transform: translateY(0.5em); }
   .hamburger::after {
     content: "";
-    transform: translateY(1.5em); }
+    transform: translateY(1.4em); }
 
 .open {
+  width: 100%;
+  position: fixed;
+  top: 3.6em;
   visibility: visible;
-  background-color: #363636; }
+  background-color: #363636;
+  z-index: 1; }
 
-.main-header figure {
-  margin: 0;
-  padding: 0; }
-.main-header img {
-  max-width: 100%;
-  height: auto; }
+.main-header {
+  margin-top: 4em; }
+  .main-header figure {
+    margin: 0;
+    padding: 0; }
+  .main-header img {
+    max-width: 100%;
+    height: auto; }
 
 .page-section-content {
   color: white;
