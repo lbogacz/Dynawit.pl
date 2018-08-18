@@ -31,25 +31,26 @@ body {
       color: black; }
 
 .hamburger {
-  width: 2em;
-  height: 1em;
-  background-color: black;
-  margin: 1em 0;
-  font-size: 2em;
+  width: 3em;
+  height: 2.5em;
+  border: 0;
+  border-top: 0.4em solid black;
+  background: transparent;
   position: absolute;
-  top: 0.4em;
+  top: 1em;
   right: 0.7em;
-  z-index: 2; }
-  .hamburger::before {
-    content: "";
-    margin: 1em 0; }
+  z-index: 1; }
+  .hamburger::before, .hamburger::after {
+    content: '';
+    width: 100%;
+    position: inherit;
+    top: 0;
+    right: 0;
+    border-top: 0.4em solid black;
+    transform: translateY(0.5em); }
   .hamburger::after {
-    content: "";
-    margin: 1em 0; }
-  .hamburger:hover {
-    color: white; }
-    .hamburger:hover ~ .main-nav-list {
-      transform: rotate(120deg); }
+    content: '';
+    transform: translateY(1.5em); }
 
 .open {
   visibility: visible;

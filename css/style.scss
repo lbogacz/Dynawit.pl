@@ -29,28 +29,28 @@
 
 //hamburegr
 .hamburger {
-  width: 2em;
-  height: 1em;
-  background-color: $black-color;
-  margin: 1em 0;
-  font-size: 2em;
+  width: 3em;
+  height: 2.5em;
+  border: 0;
+  border-top: 0.4em solid $black-color;
+  background: transparent;
   position: absolute;
-  top: 0.4em;
+  top: 1em;
   right: 0.7em;
-  z-index: 2;
-  &::before {
-    content: "";
-    margin: 1em 0;
+  z-index: 1;
+  &::before,
+  &::after {
+    content: '';
+    width: 100%;
+    position: inherit;
+    top: 0;
+    right: 0;
+    border-top: 0.4em solid $black-color;
+    transform: translateY(.5em);
   }
   &::after {
-    content: "";
-    margin: 1em 0;
-  }
-  &:hover {
-    color: $white-color;
-    &~.main-nav-list {
-      transform: rotate(120deg);
-    }
+    content: '';
+    transform: translateY(1.5em);
   }
 }
 
