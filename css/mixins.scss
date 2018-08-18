@@ -1,5 +1,5 @@
 @mixin page-section-content($color) {
-    margin: -3px 0;
+    margin: -5px 0;
     padding: 1em;
     height: 25%;
     background-color: $color;
@@ -9,13 +9,14 @@
     letter-spacing: 0.06em;
     h2 {
         margin: 0;
-        padding: 0;
         text-align: center;
         letter-spacing: 0.06em;
     }
 }
 
-@mixin button  {
+@mixin button {
+    width: 6em;
+    display: block;
     background-color: $orange-color;
     padding: 0.8em 2em;
     text-decoration: none;
@@ -30,7 +31,7 @@
     }
 }
 
-@mixin social-media($color){
+@mixin social-media($color) {
     font-size: 10em;
     color: $color;
 }

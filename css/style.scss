@@ -40,16 +40,16 @@
   z-index: 1;
   &::before,
   &::after {
-    content: '';
+    content: "";
     width: 100%;
     position: inherit;
     top: 0;
     right: 0;
     border-top: 0.4em solid $black-color;
-    transform: translateY(.5em);
+    transform: translateY(0.5em);
   }
   &::after {
-    content: '';
+    content: "";
     transform: translateY(1.5em);
   }
 }
@@ -111,6 +111,8 @@
 }
 
 .boards {
+  text-align: center;
+  margin: auto;
   figure {
     text-align: center;
     figcaption {

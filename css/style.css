@@ -41,7 +41,7 @@ body {
   right: 0.7em;
   z-index: 1; }
   .hamburger::before, .hamburger::after {
-    content: '';
+    content: "";
     width: 100%;
     position: inherit;
     top: 0;
@@ -49,7 +49,7 @@ body {
     border-top: 0.4em solid black;
     transform: translateY(0.5em); }
   .hamburger::after {
-    content: '';
+    content: "";
     transform: translateY(1.5em); }
 
 .open {
@@ -70,7 +70,7 @@ body {
   padding: 0; }
 
 .skatebording-evolve {
-  margin: -3px 0;
+  margin: -5px 0;
   padding: 1em;
   height: 25%;
   background-color: #363636;
@@ -80,7 +80,6 @@ body {
   letter-spacing: 0.06em; }
   .skatebording-evolve h2 {
     margin: 0;
-    padding: 0;
     text-align: center;
     letter-spacing: 0.06em; }
 
@@ -90,7 +89,7 @@ body {
     max-width: 100%; }
 
 .live-in-the-moment {
-  margin: -3px 0;
+  margin: -5px 0;
   padding: 1em;
   height: 25%;
   background-color: #fe6036;
@@ -100,7 +99,6 @@ body {
   letter-spacing: 0.06em; }
   .live-in-the-moment h2 {
     margin: 0;
-    padding: 0;
     text-align: center;
     letter-spacing: 0.06em; }
 
@@ -110,7 +108,7 @@ body {
     max-width: 100%; }
 
 .why-dynawit {
-  margin: -3px 0;
+  margin: -5px 0;
   padding: 1em;
   height: 25%;
   background-color: #f4f4f4;
@@ -121,34 +119,40 @@ body {
   color: black; }
   .why-dynawit h2 {
     margin: 0;
-    padding: 0;
     text-align: center;
     letter-spacing: 0.06em; }
 
-.boards figure {
-  text-align: center; }
-  .boards figure figcaption {
-    color: black; }
-    .boards figure figcaption a {
-      background-color: #fe6036;
-      padding: 0.8em 2em;
-      text-decoration: none;
-      color: white;
-      border-radius: 10em;
-      box-shadow: 0 0.1em 0.1em black; }
-      .boards figure figcaption a:hover {
-        color: black; }
-      .boards figure figcaption a:active {
-        box-shadow: none; }
-  .boards figure img {
-    max-width: 100%;
-    max-height: 25em;
-    margin: 1em; }
+.boards {
+  text-align: center;
+  margin: auto; }
+  .boards figure {
+    text-align: center; }
+    .boards figure figcaption {
+      color: black; }
+      .boards figure figcaption a {
+        width: 6em;
+        display: block;
+        background-color: #fe6036;
+        padding: 0.8em 2em;
+        text-decoration: none;
+        color: white;
+        border-radius: 10em;
+        box-shadow: 0 0.1em 0.1em black; }
+        .boards figure figcaption a:hover {
+          color: black; }
+        .boards figure figcaption a:active {
+          box-shadow: none; }
+    .boards figure img {
+      max-width: 100%;
+      max-height: 25em;
+      margin: 1em; }
 
 .page-section-content-button {
   text-align: center;
   margin-top: 8em; }
   .page-section-content-button .button {
+    width: 6em;
+    display: block;
     background-color: #fe6036;
     padding: 0.8em 2em;
     text-decoration: none;
@@ -161,7 +165,7 @@ body {
       box-shadow: none; }
 
 .bottom-info {
-  margin: -3px 0;
+  margin: -5px 0;
   padding: 1em;
   height: 25%;
   background-color: #fe6036;
@@ -173,7 +177,6 @@ body {
   text-align: center; }
   .bottom-info h2 {
     margin: 0;
-    padding: 0;
     text-align: center;
     letter-spacing: 0.06em; }
 
