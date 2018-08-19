@@ -27,6 +27,21 @@
   }
 }
 
+//logo
+.main-logo {
+  @include logo(2em);
+  width: 80%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  p {
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0.3em;
+  }
+}
+
 //hamburegr
 .menu-hamburger {
   width: 100%;
