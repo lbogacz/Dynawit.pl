@@ -75,8 +75,6 @@ body {
   .hamburger::after {
     content: "";
     transform: translateY(1.4em); }
-  .hamburger:hover {
-    transform: rotate(35deg); }
 
 .open {
   width: 100%;
@@ -84,8 +82,15 @@ body {
   top: 3.6em;
   visibility: visible;
   background-color: #363636;
-  z-index: 1; }
+  z-index: 1;
+  animation: hamburger 600ms linear;
+  transition: 700ms linear; }
 
+@keyframes hamburger {
+  0% {
+    transform: translateY(-20em); }
+  100% {
+    transform: translateY(0); } }
 .main-header {
   margin-top: 4em; }
   .main-header figure {

@@ -76,9 +76,6 @@
     content: "";
     transform: translateY(1.4em);
   }
-  &:hover {
-    transform: rotate(35deg);
-  }
 }
 
 .open {
@@ -88,6 +85,17 @@
   visibility: visible;
   background-color: $grey-color;
   z-index: 1;
+  animation: hamburger 600ms linear;
+  transition: 700ms linear;
+}
+
+@keyframes hamburger {
+  0% {
+    transform: translateY(-20em);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 //main-header picture
