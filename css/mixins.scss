@@ -14,8 +14,8 @@
     }
 }
 
-@mixin button {
-    width: 6em;
+@mixin button($width) {
+    width: $width;
     display: block;
     background-color: $orange-color;
     padding: 0.8em 2em;

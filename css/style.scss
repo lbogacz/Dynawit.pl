@@ -140,14 +140,14 @@
 }
 
 .boards {
-  text-align: center;
-  margin: auto;
+  width: 100%;
   figure {
-    text-align: center;
     figcaption {
       color: $black-color;
       a {
-        @include button;
+        @include button(5.8em);
+        text-align: center;
+        margin: auto;
       }
     }
     img {
@@ -159,10 +159,12 @@
 }
 
 .page-section-content-button {
-  text-align: center;
-  margin-top: 8em;
   .button {
-    @include button;
+    @include button (9em);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
   }
 }
 
@@ -211,7 +213,7 @@
   font-family: "Roboto", sans-serif;
   a {
     text-decoration: none;
-    font-size: 6em;
+    font-size: 5em;
     color: $orange-color;
     font-weight: bold;
   }

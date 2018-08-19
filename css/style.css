@@ -153,46 +153,46 @@ body {
     letter-spacing: 0.06em; }
 
 .boards {
-  text-align: center;
-  margin: auto; }
-  .boards figure {
-    text-align: center; }
-    .boards figure figcaption {
-      color: black; }
-      .boards figure figcaption a {
-        width: 6em;
-        display: block;
-        background-color: #fe6036;
-        padding: 0.8em 2em;
-        text-decoration: none;
-        color: white;
-        border-radius: 10em;
-        box-shadow: 0 0.1em 0.1em black; }
-        .boards figure figcaption a:hover {
-          color: black; }
-        .boards figure figcaption a:active {
-          box-shadow: none; }
-    .boards figure img {
-      max-width: 100%;
-      max-height: 25em;
-      margin: 1em; }
+  width: 100%; }
+  .boards figure figcaption {
+    color: black; }
+    .boards figure figcaption a {
+      width: 5.8em;
+      display: block;
+      background-color: #fe6036;
+      padding: 0.8em 2em;
+      text-decoration: none;
+      color: white;
+      border-radius: 10em;
+      box-shadow: 0 0.1em 0.1em black;
+      text-align: center;
+      margin: auto; }
+      .boards figure figcaption a:hover {
+        color: black; }
+      .boards figure figcaption a:active {
+        box-shadow: none; }
+  .boards figure img {
+    max-width: 100%;
+    max-height: 25em;
+    margin: 1em; }
 
-.page-section-content-button {
+.page-section-content-button .button {
+  width: 9em;
+  display: block;
+  background-color: #fe6036;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  color: white;
+  border-radius: 10em;
+  box-shadow: 0 0.1em 0.1em black;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 8em; }
-  .page-section-content-button .button {
-    width: 6em;
-    display: block;
-    background-color: #fe6036;
-    padding: 0.8em 2em;
-    text-decoration: none;
-    color: white;
-    border-radius: 10em;
-    box-shadow: 0 0.1em 0.1em black; }
-    .page-section-content-button .button:hover {
-      color: black; }
-    .page-section-content-button .button:active {
-      box-shadow: none; }
+  .page-section-content-button .button:hover {
+    color: black; }
+  .page-section-content-button .button:active {
+    box-shadow: none; }
 
 .bottom-info {
   margin: -5px 0;
@@ -241,7 +241,7 @@ body {
   font-family: "Roboto", sans-serif; }
   .allegro a {
     text-decoration: none;
-    font-size: 6em;
+    font-size: 5em;
     color: #fe6036;
     font-weight: bold; }
 
