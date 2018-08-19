@@ -153,31 +153,29 @@ body {
     letter-spacing: 0.06em; }
 
 .boards {
-  width: 100%; }
-  .boards figure {
-    text-align: center;
-    margin: auto; }
-    .boards figure figcaption {
-      color: black; }
-      .boards figure figcaption a {
-        width: 5.8em;
-        display: block;
-        background-color: #fe6036;
-        padding: 0.8em 2em;
-        text-decoration: none;
-        color: white;
-        border-radius: 10em;
-        box-shadow: 0 0.1em 0.1em black;
-        text-align: center;
-        margin: auto; }
-        .boards figure figcaption a:hover {
-          color: black; }
-        .boards figure figcaption a:active {
-          box-shadow: none; }
-    .boards figure img {
-      max-width: 100%;
-      max-height: 25em;
-      margin: 1em; }
+  width: 100%;
+  text-align: center; }
+  .boards figcaption {
+    color: black; }
+    .boards figcaption a {
+      width: 5.8em;
+      display: block;
+      background-color: #fe6036;
+      padding: 0.8em 2em;
+      text-decoration: none;
+      color: white;
+      border-radius: 10em;
+      box-shadow: 0 0.1em 0.1em black;
+      text-align: center;
+      margin: auto; }
+      .boards figcaption a:hover {
+        color: black; }
+      .boards figcaption a:active {
+        box-shadow: none; }
+  .boards img {
+    max-width: 100%;
+    max-height: 25em;
+    margin: 1em; }
 
 .page-section-content-button .button {
   width: 9em;

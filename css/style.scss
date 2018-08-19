@@ -141,22 +141,19 @@
 
 .boards {
   width: 100%;
-  figure {
-    text-align: center;
-    margin: auto;
-    figcaption {
-      color: $black-color;
-      a {
-        @include button(5.8em);
-        text-align: center;
-        margin: auto;
-      }
+  text-align: center;
+  figcaption {
+    color: $black-color;
+    a {
+      @include button(5.8em);
+      text-align: center;
+      margin: auto;
     }
-    img {
-      max-width: 100%;
-      max-height: 25em;
-      margin: 1em;
-    }
+  }
+  img {
+    max-width: 100%;
+    max-height: 25em;
+    margin: 1em;
   }
 }
 
