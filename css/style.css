@@ -75,6 +75,8 @@ body {
   .hamburger::after {
     content: "";
     transform: translateY(1.4em); }
+  .hamburger:hover {
+    transform: rotate(35deg); }
 
 .open {
   width: 100%;
