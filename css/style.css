@@ -154,27 +154,30 @@ body {
 
 .boards {
   width: 100%; }
-  .boards figure figcaption {
-    color: black; }
-    .boards figure figcaption a {
-      width: 5.8em;
-      display: block;
-      background-color: #fe6036;
-      padding: 0.8em 2em;
-      text-decoration: none;
-      color: white;
-      border-radius: 10em;
-      box-shadow: 0 0.1em 0.1em black;
-      text-align: center;
-      margin: auto; }
-      .boards figure figcaption a:hover {
-        color: black; }
-      .boards figure figcaption a:active {
-        box-shadow: none; }
-  .boards figure img {
-    max-width: 100%;
-    max-height: 25em;
-    margin: 1em; }
+  .boards figure {
+    text-align: center;
+    margin: auto; }
+    .boards figure figcaption {
+      color: black; }
+      .boards figure figcaption a {
+        width: 5.8em;
+        display: block;
+        background-color: #fe6036;
+        padding: 0.8em 2em;
+        text-decoration: none;
+        color: white;
+        border-radius: 10em;
+        box-shadow: 0 0.1em 0.1em black;
+        text-align: center;
+        margin: auto; }
+        .boards figure figcaption a:hover {
+          color: black; }
+        .boards figure figcaption a:active {
+          box-shadow: none; }
+    .boards figure img {
+      max-width: 100%;
+      max-height: 25em;
+      margin: 1em; }
 
 .page-section-content-button .button {
   width: 9em;
@@ -228,21 +231,21 @@ body {
     color: white; }
 
 .fa-facebook {
-  font-size: 10em;
+  font-size: 6em;
   color: #fe6036;
-  margin: 0.3em; }
+  margin-bottom: 0.2em;
+  margin-top: 0.1em; }
 
 .fa-youtube {
-  font-size: 10em;
+  font-size: 6em;
   color: #ff0009;
-  margin-bottom: 0.3em; }
+  margin-bottom: 0; }
 
 .allegro {
   font-family: "Roboto", sans-serif; }
   .allegro a {
     text-decoration: none;
     font-size: 5em;
-    color: #fe6036;
-    font-weight: bold; }
+    color: #fe6036; }
 
 /*# sourceMappingURL=style.css.map */

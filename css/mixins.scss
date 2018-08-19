@@ -31,9 +31,10 @@
     }
 }
 
-@mixin social-media($color) {
-    font-size: 10em;
+@mixin social-media($color, $margin) {
+    font-size: 6em;
     color: $color;
+    margin-bottom: $margin;
 }
 
 @mixin logo($font-size) {
